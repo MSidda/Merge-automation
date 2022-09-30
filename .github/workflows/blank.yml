@@ -13,9 +13,9 @@ jobs:
         uses: devmasx/merge-branch@master
         with:
           type: now
-          from_branch: development
-          target_branch: staging
-          github_token: ${{ github.token }}
+          from_branch: dev1
+          target_branch: main
+          github_token: ${{ env.TOKEN }}
 
       - name: Merge staging -> uat
         uses: devmasx/merge-branch@master
