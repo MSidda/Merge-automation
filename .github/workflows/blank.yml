@@ -1,4 +1,4 @@
-name: Sync multiple branches
+name: Sync multiple branches git
 on:
   push:
     branches:
